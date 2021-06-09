@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Este es el sitio web de mi empresa de venta de bebidas alcoholicas">
+    <meta name="keywords" content="VENTA, CERVEZA ARTESANAL, VINO, FERNET, ESPIRITUOSAS, BRANCA, DARWIN, BIERHAUS, MUR, TACUARA, IPA">
+    <title>Beerbushka</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img src="img/BEERBUSHKA2letrasnegro2.png" alt="Logo Beerbushka" class="header__logo">
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="bebidas.html" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Bebidas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="bebidas.html">Cervezas</a></li>
+                                <li><a class="dropdown-item" href="bebidas.html">Vinos</a></li>
+                                <li><a class="dropdown-item" href="bebidas.html">Espirituosas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="maestros.html">Maestros Cerveceros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="bebidas.html">
+                        <img src="img/slider-1.jpg" class="d-block w-100" alt="Cervezas">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="bebidas.html">
+                        <img src="img/slider-2.jpg" class="d-block w-100" alt="Vinos">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="bebidas.html">
+                        <img src="img/slider-3.jpg" class="d-block w-100" alt="Fernet">
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <section class="maestros">
+        <div class="maestros__padding">
+            <h3 class="medio">Maestros Cerveceros</h3>
+        </div>
+        <div class="maestros__flex">
+            <div id="caja1">
+                <a href="maestros.html">
+                    <img src="img/logo bh.png" class="img-fluid maestros__tamanoFotoB maestros__scale"
+                        alt="Logo Bierhaus">
+                </a>
+            </div>
+            <div id="caja2">
+                <a href="maestros.html">
+                    <img src="img/logoDarwin.png" alt="Logo Darwin"
+                        class="img-fluid maestros__tamanoFotoD maestros__scale">
+                </a>
+            </div>
+            <div id="caja3">
+                <a href="maestros.html">
+                    <img src="img/logoTacuara.png" alt="Logo Tacuara"
+                        class="img-fluid maestros__tamanoFotoTM maestros__scale">
+                </a>
+            </div>
+            <div id="caja4">
+                <a href="maestros.html">
+                    <img src="img/3.svg" alt="Logo Mur" class="img-fluid maestros__tamanoFotoTM maestros__scale">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <h4>Seguinos</h4>
+            <a href="https://www.instagram.com/beerbushka/" target="_blank">
+                <img src="img/ig.png" alt="Logo Instagram" class="footer__instagram">
+            </a>
+        </div>
+        <div class="footer__medios--font">
+            <h4>Medios de pago</h4>
+            <ul>
+                <li>Efectivo</li>
+                <li>Transferencia Bancaria</li>
+                <li>MercadoPago</li>
+            </ul>
+        </div>
+        <div>
+            <img src="img/BEERBUSHKA2letrasnegro2.png" alt="Logo Beerbushka" class="footer__logo">
+        </div>
+    </footer>
+
+    <div class="copy">
+        <p class="copy__letra">© 2021 Beerbushka. Beber con moderación. Prohibida su venta a menores de 18 años.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
