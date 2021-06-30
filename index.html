@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Este es el sitio web de mi empresa de venta de bebidas alcoholicas">
-    <meta name="keywords" content="VENTA, CERVEZA ARTESANAL, VINO, FERNET, ESPIRITUOSAS, BRANCA, DARWIN, BIERHAUS, MUR, TACUARA, IPA">
+    <meta name="keywords"
+        content="VENTA, CERVEZA ARTESANAL, VINO, FERNET, ESPIRITUOSAS, BRANCA, DARWIN, BIERHAUS, MUR, TACUARA, IPA">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>Beerbushka</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap"
@@ -50,10 +55,10 @@
                             <a class="nav-link active" href="maestros.html">Maestros Cerveceros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                            <a class="nav-link active" href="novedades.html">Novedades</a>
                         </li>
                     </ul>
                 </div>
@@ -84,7 +89,7 @@
                 </div>
                 <div class="carousel-item">
                     <a href="bebidas.html">
-                        <img src="img/slider-3.jpg" class="d-block w-100" alt="Fernet">
+                        <img src="img/slider-3.png" class="d-block w-100" alt="Fernet">
                     </a>
                 </div>
             </div>
@@ -102,32 +107,48 @@
     </main>
 
     <section class="maestros">
-        <div class="maestros__padding">
-            <h3 class="medio">Maestros Cerveceros</h3>
-        </div>
-        <div class="maestros__flex">
-            <div id="caja1">
-                <a href="maestros.html">
-                    <img src="img/logo bh.png" class="img-fluid maestros__tamanoFotoB maestros__scale"
-                        alt="Logo Bierhaus">
-                </a>
+        <div id="first"></div>
+        <div id="second">
+            <div class="maestros__padding">
+                <h1 class="medio title_reset">Maestros Cerveceros</h1>
             </div>
-            <div id="caja2">
-                <a href="maestros.html">
-                    <img src="img/logoDarwin.png" alt="Logo Darwin"
-                        class="img-fluid maestros__tamanoFotoD maestros__scale">
-                </a>
+            <div>
+                <h5 class="text_reset--center">Seleccionados con mucho criterio a
+                    través de varias catas para brindarles lo mejor.</h3>
             </div>
-            <div id="caja3">
-                <a href="maestros.html">
-                    <img src="img/logoTacuara.png" alt="Logo Tacuara"
-                        class="img-fluid maestros__tamanoFotoTM maestros__scale">
-                </a>
-            </div>
-            <div id="caja4">
-                <a href="maestros.html">
-                    <img src="img/3.svg" alt="Logo Mur" class="img-fluid maestros__tamanoFotoTM maestros__scale">
-                </a>
+            <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+                <div class="col">
+                    <div class="card h-75 border-0 bg-transparent">
+                        <a href="maestros.html#bh">
+                            <img src="img/logoBh2.png" class="card-img-top maestros__tamanoFotoB maestros__scale"
+                                alt="Logo Bierhaus">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-75 border-0 bg-transparent">
+                        <a href="maestros.html#darwin">
+                            <img src="img/logoDarwin2.png" class="card-img-top maestros__tamanoFotoD maestros__scale"
+                                alt="Logo Darwin">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-75 border-0 bg-transparent">
+                        <a href="maestros.html#mur">
+                            <img src="img/logoMur2.png" class="card-img-top maestros__tamanoFotoTM maestros__scale"
+                                alt="Logo Mur">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-75 border-0 bg-transparent">
+                        <a href="maestros.html#gor">
+                            <img src="img/logoGorilla.png" class="card-img-top maestros__tamanoFotoG maestros__scale"
+                                alt="Logo Tacuara">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Este es el sitio web de mi empresa de venta de bebidas alcoholicas">
+    <meta name="keywords"
+        content="VENTA, CERVEZA ARTESANAL, VINO, FERNET, ESPIRITUOSAS, BRANCA, DARWIN, BIERHAUS, MUR, GORILLA, IPA">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>Maestros Cerveceros</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap"
@@ -12,8 +19,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/animate.min.css">
 </head>
 
 <body>
@@ -49,10 +54,10 @@
                             <a class="nav-link active" href="maestros.html">Maestros Cerveceros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                            <a class="nav-link active" href="novedades.html">Novedades</a>
                         </li>
                     </ul>
                 </div>
@@ -61,44 +66,58 @@
     </header>
 
     <main class="rojo">
-        <div class="card mx-auto w-75 mb-5 wow animate__animated animate__slideInLeft">
-            <img src="img/latasBh.png" class="card-img-top" alt="Cervecería Bierhaus">
+        <div class="card mx-auto w-50 mb-5 bg-warning wow animate__animated animate__slideInLeft">
+            <img src="img/latasBh.png" class="card-img-top" id="bh" alt="Cervecería Bierhaus">
             <div class="card-body">
-                <h5 class="card-title">Bierhaus</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Cum ut deserunt iusto assumenda ducimus, corporis qui. Sequi ex minima deserunt id, veniam
-                    numquam illum eum ut facere veritatis deleniti et.</p>
+                <h5 class="card-title title_reset">Bierhaus</h5>
+                <h6 class="subtitle">La cerveza que tomaría la cerveza</h6>
+                <p class="card-text text_reset">Bierhaus nace con 4 amigos de la infancia que decidieron hacer lo que
+                    siempre soñaron: su propia cerveza. Con el tiempo fuimos creciendo, perfeccionándonos, y lo más
+                    importante es que nunca dejamos de creer en lo que estábamos haciendo. Por eso, experimentamos y
+                    seguimos experimentando para encontrar el sabor que mejor se adapte a nuestro paladar.
+                </p>
             </div>
         </div>
-        <div class="card mx-auto w-75 mb-5 wow animate__animated animate__slideInRight">
-            <img src="img/latas.png" class="card-img-top" alt="Cervecería Darwin">
+        <div class="card mx-auto w-50 mb-5 bg-warning wow animate__animated animate__slideInRight">
+            <img src="img/latas.png" class="card-img-top" id="darwin" alt="Cervecería Darwin">
             <div class="card-body">
-                <h5 class="card-title">Darwin</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Placeat dolor vero deserunt perspiciatis asperiores rerum accusantium dolorem saepe quo autem!
-                    Molestiae quibusdam earum, accusantium suscipit expedita cupiditate provident ut deleniti?</p>
+                <h5 class="card-title title_reset">Darwin</h5>
+                <h6 class="subtitle">Todo evoluciona</h6>
+                <p class="card-text text_reset">Darwin nace a partir de la pasión de tres hermanos que comienzan a
+                    cocinar cerveza por diversión, y en
+                    el año 2014 deciden dejar de lado sus trabajos para dedicarse por completo a la aventura de
+                    la cerveza artesanal. <br>
+                    Una cervecería que se destaca por trabajar en la evolución de la cerveza,
+                    buscando siempre superarse, con un foco en la calidad, obtuvo varios reconocimientos en competencias
+                    nacionales e internacionales de cerveza a lo largo de los últimos años.</p>
             </div>
         </div>
-        <div class="card mx-auto w-75 mb-5 wow animate__animated animate__slideInLeft">
-            <img src="img/latasMur.jpg" class="card-img-top" alt="Cervecería Mur">
+        <div class="card mx-auto w-50 mb-5 bg-warning wow animate__animated animate__slideInLeft">
+            <img src="img/latasMur.png" class="card-img-top" id="mur" alt="Cervecería Mur">
             <div class="card-body">
-                <h5 class="card-title">Mur</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Placeat dolor vero deserunt perspiciatis asperiores rerum accusantium dolorem saepe quo autem!
-                    Molestiae quibusdam earum, accusantium suscipit expedita cupiditate provident ut deleniti?</p>
+                <h5 class="card-title title_reset">Mur</h5>
+                <h6 class="subtitle">#NOHACEMOSBLONDE</h6>
+                <p class="card-text text_reset">Un proyecto iniciado en 2015 por dos amigos que hoy se
+                    convirtió en un equipo que se dedica a crear una experiencia sobre la CERVEZA. <br>
+                    "Esas recetas complejas que le gustan a todos los expertos en cervezas, las reconvertimos, las
+                    reversionamos y le agregamos un poco de magia adaptándolas al gusto de todos, para que puedas
+                    tomarte una cerveza compleja y totalmente balanceada."</p>
             </div>
         </div>
-        <div class="card mx-auto w-75 mb-5 wow animate__animated animate__slideInRight">
-            <img src="img/latasTac.jpg" class="card-img-top" alt="Cervecería Tacuara">
+        <div class="card mx-auto w-50 bg-warning wow animate__animated animate__slideInRight">
+            <img src="img/176115209_1426454211038636_4951994833379895268_n.jpg" class="card-img-top" id="gor"
+                alt="Cervecería Tacuara">
             <div class="card-body">
-                <h5 class="card-title">Tacuara</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Placeat dolor vero deserunt perspiciatis asperiores rerum accusantium dolorem saepe quo autem!
-                    Molestiae quibusdam earum, accusantium suscipit expedita cupiditate provident ut deleniti?</p>
+                <h5 class="card-title title_reset">Gorilla</h5>
+                <h6 class="subtitle">#LAEVOLUCIÓNDELAINVOLUCIÓN</h6>
+                <p class="card-text text_reset">Gorilla nace en el año 2016 con el objetivo de aportar un enfoque más
+                    innovador y vanguardista a la escena de la cerveza artesanal Argentina. Diferenciándose con recetas
+                    poco comunes por estas latitudes, sus estilos más característicos son la Hazy Pale Ale, Summer Ale,
+                    Choco Stout y American Amber Ale. Actualmente cuenta con una Pastry Sour con Duraznos, cerveza
+                    especial elaborada en colaboración con Juguetes Perdidos y una Doble IPA colaboración con Gorilla de
+                    Berlín. En cuanto a reconocimientos internacionales, Gorilla obtuvo desde su sus inicios más de 10
+                    medallas de oro, plata y bronce, obtenidas en competencias organizadas en Chile, Perú, Ecuador y
+                    México.</p>
             </div>
         </div>
     </main>

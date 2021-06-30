@@ -13,8 +13,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(237, 198, 0);
-    height: 15vh;
+    background-color: #ffc107;
     width: 100vw;
 }
 
@@ -40,37 +39,52 @@ nav ul li {
 }
 
 .maestros {
-    background-color: rgb(237, 198, 0);
-    height: 40vh;
+    width: 100vw;
+    position: relative;
+    background-color: #ffc107;
+}
+
+div#first {
+    background-image: url(/img/BEERBUSHKA2letrasnegro2.png);
+    opacity: 0.2;
+    background-size: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
     width: 100vw;
 }
 
-.maestros__flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 1rem;
+div#second {
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
 }
 
 .maestros__padding {
-    padding: 1rem;
+    padding: 4rem;
 }
 
 .maestros__tamanoFotoB {
     max-width: 12rem;
-    max-height: 12rem;
+    max-height: 13rem;
 }
 
 .maestros__tamanoFotoD {
     max-width: 16rem;
-    max-height: 12rem;
+    max-height: 13rem;
 }
 
 .maestros__tamanoFotoTM {
-    width: 13rem;
     max-width: 13rem;
-    height: 13rem;
     max-height: 13rem;
+}
+
+.maestros__tamanoFotoG {
+    max-width: 11rem;
+    max-height: 14rem;
 }
 
 .maestros__scale:hover {
@@ -78,8 +92,8 @@ nav ul li {
 }
 
 footer {
-    background-color: rgb(219, 212, 175);
-    height: 17vh;
+    background-color: #dbd4af;
+    height: 20vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -107,7 +121,7 @@ footer {
 }
 
 .copy {
-    background-color: rgb(157, 31, 31);
+    background-color: #9d1f1f;
     height: 5vh;
     width: 100vw;
     text-align: center;
@@ -117,7 +131,7 @@ footer {
     color: white;
     font-style: italic;
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 1.83vh;
     padding-top: 0.5rem;
 }
 
@@ -127,4 +141,54 @@ footer {
 
 h3 {
     font-size: 2.5rem;
+}
+
+.card {
+    align-items: center;
+}
+
+.rojo {
+    background-color: #9d1f1f;
+    padding: 2.5rem;
+}
+
+.main__ajuste {
+    height: 60vh;
+}
+
+.text_reset {
+    font-weight: 500;
+    text-transform: none;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.title_reset {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.text_reset--center {
+    font-weight: 500;
+    text-transform: none;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.nodeco {
+    text-decoration: underline;
+    color: black;
+    text-transform: none;
+    font-weight: 500;
+}
+
+.rojo--lesspadding {
+    background-color: #9d1f1f;
+    padding: 0.8rem 2.5rem;
 }
