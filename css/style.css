@@ -113,7 +113,8 @@ footer {
   padding-top: 0.5rem; }
 
 .medio {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 1rem; }
 
 h3 {
   font-size: 2.5rem; }
@@ -158,3 +159,6 @@ h3 {
 .rojo--lesspadding {
   background-color: #9d1f1f;
   padding: 0.8rem 2.5rem; }
+
+.padding-top {
+  padding-top: 2.5rem; }
