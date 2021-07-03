@@ -8,6 +8,12 @@
   font-size: 62.5% 1rem;
   /* 1rem = 10px */ }
 
+@media only screen and (max-width: 1023px) {
+  .carousel-item {
+    height: 230px; }
+  .carousel-item img {
+    height: 230px; } }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -17,10 +23,10 @@
 
 .header__logo {
   margin: 1rem 2rem;
-  width: 13rem;
-  max-width: 13rem;
-  height: 6rem;
-  max-height: 6rem; }
+  width: 8rem;
+  max-width: 8rem;
+  height: 4rem;
+  max-height: 4rem; }
 
 nav ul li {
   margin: 1.5rem 1.5rem;
@@ -37,25 +43,8 @@ nav ul li {
   position: relative;
   background-color: #ffc107; }
 
-div#first {
-  background-image: url(/img/BEERBUSHKA2letrasnegro2.png);
-  opacity: 0.2;
-  background-size: 70vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 70vh;
-  width: 100vw; }
-
-div#second {
-  position: absolute;
-  height: 70vh;
-  width: 100vw;
-  top: 0;
-  left: 0; }
-
 .maestros__padding {
-  padding: 4rem; }
+  padding: 2.5rem; }
 
 .maestros__tamanoFotoB {
   max-width: 12rem;
@@ -83,18 +72,20 @@ footer {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  align-items: center;
-  font-size: 1.2rem; }
+  align-items: center; }
   footer div ul li {
     font-weight: 400; }
 
+h4 {
+  font-size: 1rem; }
+
 .footer__medios--font {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 1.3rem; }
 
 .footer__logo {
-  max-width: 10rem;
-  max-height: 5rem; }
+  max-width: 5rem;
+  max-height: 2.5rem; }
 
 .footer__instagram {
   margin-left: 1.5rem; }
@@ -109,7 +100,7 @@ footer {
   color: white;
   font-style: italic;
   font-weight: 100;
-  font-size: 1.83vh;
+  font-size: 0.66rem;
   padding-top: 0.5rem; }
 
 .medio {
@@ -162,3 +153,33 @@ h3 {
 
 .padding-top {
   padding-top: 2.5rem; }
+
+@media only screen and (min-width: 1024px) {
+  div#first {
+    background-image: url(/img/BEERBUSHKA2letrasnegro2.png);
+    opacity: 0.2;
+    background-size: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 100vw; }
+  div#second {
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    top: 0;
+    left: 0; }
+  .copy__letra {
+    font-size: 1.2rem; }
+  .footer__medios--font {
+    font-size: 1.2rem; }
+  .footer__logo {
+    max-width: 10rem;
+    max-height: 5rem; }
+  .header__logo {
+    margin: 1rem 2rem;
+    width: 13rem;
+    max-width: 13rem;
+    height: 6rem;
+    max-height: 6rem; } }
